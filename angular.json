@@ -26,9 +26,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-              
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -121,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "clubWebsite"
+    }
+  },
+  "defaultProject": "clubWebsite",
+  "cli": {
+    "analytics": "2a1021ec-9f26-431b-bc42-0fb26504af51"
+  }
 }
