@@ -18,7 +18,7 @@ export class SidenavComponent implements OnInit {
       "assets/js/owl.carousel.min.js",
       "assets/js/jquery.countTo.js",
       "assets/js/main.js",
-      "assets/js/modernizr-2.6.2.min.js",
+      "assets/js/modernizr-2.6.2.min.js"
       
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {

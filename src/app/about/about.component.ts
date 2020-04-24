@@ -10,7 +10,6 @@ export class AboutComponent implements OnInit {
     const dynamicScripts = [
       "assets/js/jquery.min.js",
       "assets/js/jquery.easing.1.3.js",
-      "assets/js/bootstrap.min.js",
       "assets/js/jquery.waypoints.min.js",
       "assets/js/jquery.flexslider-min.js",
       "assets/js/sticky-kit.min.js",
@@ -18,6 +17,7 @@ export class AboutComponent implements OnInit {
       "assets/js/jquery.countTo.js",
       "assets/js/main.js",
       "assets/js/modernizr-2.6.2.min.js",
+      "assets/js/bootstrap.min.js",
       
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {
