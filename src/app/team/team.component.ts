@@ -11,14 +11,14 @@ export class TeamComponent implements OnInit {
     const dynamicScripts = [
       "assets/js/jquery.min.js",
       "assets/js/jquery.easing.1.3.js",
-      "assets/js/bootstrap.min.js",
       "assets/js/jquery.waypoints.min.js",
       "assets/js/jquery.flexslider-min.js",
       "assets/js/sticky-kit.min.js",
       "assets/js/owl.carousel.min.js",
       "assets/js/jquery.countTo.js",
       "assets/js/main.js",
-      "assets/js/modernizr-2.6.2.min.js"
+      "assets/js/modernizr-2.6.2.min.js",
+      "assets/js/bootstrap.min.js"
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {
       const node = document.createElement('script');
@@ -26,7 +26,7 @@ export class TeamComponent implements OnInit {
       node.type = 'text/javascript';
       node.async = false;
       node.charset = 'utf-8';
-      document.getElementsByTagName('head')[0].appendChild(node);
+      document.getElementsByTagName('body')[0].appendChild(node);
     }
   }
 

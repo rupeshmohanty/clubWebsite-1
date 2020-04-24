@@ -32,7 +32,7 @@ export class SidenavComponent implements OnInit {
   }
 
   constructor() {
-    this.loadScripts();
+   
    }
 
   ngOnInit(): void {

@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
       "assets/js/sticky-kit.min.js",
       "assets/js/owl.carousel.min.js",
       "assets/js/main.js",
-      "assets/js/modernizr-2.6.2.min.js",
+      
       
     ];
     for (let i = 0; i < dynamicScripts.length; i++) {
