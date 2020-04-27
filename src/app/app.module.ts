@@ -13,6 +13,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { ContentComponent } from './content/content.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     SidenavComponent,
     ContentComponent,
     ResourcesComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
